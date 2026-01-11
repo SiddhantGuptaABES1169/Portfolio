@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(186, 224, 230);
+    background-size: cover;
+}
+.logo{
+ font-size: 1.5em;
+ color: rgb(241, 230, 230);
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: #222;
+    padding: 8px;
+
+
+}
+.navlinks{
+    display: flex;
+}
+.navlinks li{
+    margin:0 15px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
+.details h1,h2{
+    display: flex;
+    justify-content: center;
+}
+.details button{
+    display: flex;
+}
+.b1{
+    display: block;
+     background-color: blue;
+     width: 100px;
+   color: white;
+     border: none;
+   padding: 15px 25px;
+   border-radius: 6px;
+    text-align: center;
+   margin: 0 auto;
+}
+.b1:hover{
+    transform: scale(1.2); /* zoom in 10% */
+    cursor: pointer;
+    background-color: rgb(3, 3, 141);
+    
+}
+.pic img{
+    display: flex;
+    border-color: black;
+    border-radius: 40%;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+.About h1{
+    display: flex;
+    justify-content: center;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+}
+.box1{
+    border:2px solid white;
+    background-color: rgb(161, 20, 20);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    margin:0 40px;
+    color: white;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+.project1{
+   border:2px solid black;
+   margin: 20px;
+   background-color: rgb(222, 216, 216);
+   border-radius:10%;
+}
+.contact {
+  padding: 45px 10%;
+  background: #f9f9f9;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #333;
+}
+
+.full-width {
+  width: 100%;
+}
+
+button {
+  padding: 14px;
+  border: none;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #000;
+}
+@media (max-width: 600px) {
+  .form-group {
+    width: 100%;
+  }
+}
